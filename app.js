@@ -25,7 +25,7 @@ const checkAppointments = () => {
             sendMessage(error);
         }
         
-    }, 1000);
+    }, 900000);
 };
 
 const startApp = async () => {
