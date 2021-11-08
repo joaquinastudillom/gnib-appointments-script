@@ -26,7 +26,7 @@ const checkAppointments = () => {
             sendMessage(error);
         }
 
-    }, 900000);
+    }, process.env.REQUEST_INTERVAL);
 };
 
 const startApp = async () => {
